@@ -1,0 +1,41 @@
+echo "__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+instance/
+.webassets-cache
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.sqlite3
+*.db
+*.sql
+.DS_Store
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+*.ipynb
+models/  # si vous avez de gros modèles
+*.h5
+*.pkl
+*.joblib
+!models/.gitkeep
+data/  # si vous avez des datasets
+# TensorFlow/Keras
+checkpoints/
+logs/" 

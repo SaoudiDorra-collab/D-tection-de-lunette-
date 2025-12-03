@@ -1,0 +1,5 @@
+Flask>=2.3.0
+tensorflow>=2.10.0
+pillow>=9.5.0
+numpy>=1.24.0
+gunicorn>=20.1.0python app.py
